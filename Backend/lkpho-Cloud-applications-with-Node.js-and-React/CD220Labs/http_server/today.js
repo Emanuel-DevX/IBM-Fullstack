@@ -4,3 +4,7 @@ module.exports.getDate = function getDate() {
     let aestTime = new Date().toLocaleString("en-US", {timeZone: "Australia/Brisbane"});
     return aestTime; // Return the formatted date and time
 };
+module.exports.getLocalDate = function getLocalDate(){
+    let localTime = new Date()
+    return localTime
+};
