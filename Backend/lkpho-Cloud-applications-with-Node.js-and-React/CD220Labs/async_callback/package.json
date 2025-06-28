@@ -4,12 +4,13 @@
   "description": "",
   "main": "ExampleAsyncCallBack.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node asyncAxiosRequest.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.21.4",
     "prompt-sync": "^4.2.0"
   }
 }

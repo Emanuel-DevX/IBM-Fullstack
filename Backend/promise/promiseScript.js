@@ -10,4 +10,3 @@ myPromise.then((successMessage)=>{
     console.log("From callback: " + successMessage)
 })
 console.log("After calling promise")
-setTimeout(() => {}, 7000);
