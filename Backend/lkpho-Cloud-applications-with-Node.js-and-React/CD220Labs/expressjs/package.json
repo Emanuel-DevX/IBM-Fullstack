@@ -5,7 +5,10 @@
   "main": "expressServer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon expressServer.js"
+    "dev": "nodemon expressServer.js",
+    "auth": "nodemon expressWithAuthentication.js",
+    "static": "nodemon expressStaticPages.js"
+
   },
   "author": "",
   "license": "ISC",
@@ -17,7 +20,9 @@
     "dotenv": "^8.6.0",
     "express": "^4.18.2",
     "express-react-views": "^0.11.0",
+    "express-session": "^1.18.1",
     "ibm-watson": "^7.1.2",
+    "jsonwebtoken": "^9.0.2",
     "react": "^16.14.0",
     "react-dom": "^16.14.0"
   }
